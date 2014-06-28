@@ -8,7 +8,7 @@ var requestAnimFrame = (function(){
         window.oRequestAnimationFrame      ||
         window.msRequestAnimationFrame     ||
         function(callback){
-            window.setTimeout(callback, 1000 / 6);
+            window.setTimeout(callback, 100000);
         };
 })();
 
